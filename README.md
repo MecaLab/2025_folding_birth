@@ -16,18 +16,18 @@ All code is written in R. The discontinuity code is adapted from the rdrobust pa
 
 # Scripts:
 
-- discontinuity_CB.r
+* discontinuity_CB.r
 
-* This code runs the RDD discontinuity analysis using the rdrobust function in R. It runs local polynomial regressions on either site of the cut-off (birth) along the perinatal trajectory of gyrification (and other surface and volumetric features). It generates the effect size, p-value, confidence intervals, standard error, coefficient and bandwidth lengths.
+	* This code runs the RDD discontinuity analysis using the rdrobust function in R. It runs local polynomial regressions on either site of the cut-off (birth) along the perinatal trajectory of gyrification (and other surface and volumetric features). It generates the effect size, p-value, confidence intervals, standard error, coefficient and bandwidth lengths.
 
-- discontinuity_per_sex_CB.r
+* discontinuity_per_sex_CB.r
 
-* This code runs the same discontinuity analysis per sex.
+	* This code runs the same discontinuity analysis per sex.
 
-- bwselect_optimal_method_CB.r
+* bwselect_optimal_method_CB.r
 	
-* Aids in the selection of an optimal bandwidth method to subsequently compute bandwidth lengths on either side of the cut-off. Possible bandwidth selection methods: "mserd", "msetwo", "msesum", "msecomb1", "msecomb2","cerrd", "certwo", "cersum", "cercomb1", "cercomb2".
+	* Aids in the selection of an optimal bandwidth method to subsequently compute bandwidth lengths on either side of the cut-off. Possible bandwidth selection methods: "mserd", "msetwo", "msesum", "msecomb1", "msecomb2","cerrd", "certwo", "cersum", "cercomb1", "cercomb2".
 
-- Grey_bw_subjects_CB.r
+* Grey_bw_subjects_CB.r
 
-* Generates a plot with subjects that are used in the RDD analysis coloured in gray (i.e., that fit in the set bandwidth).
+	* Generates a plot with subjects that are used in the RDD analysis coloured in gray (i.e., that fit in the set bandwidth).
