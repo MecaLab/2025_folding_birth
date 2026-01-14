@@ -1,5 +1,7 @@
 # 2025_folding_birth
-This repository contains the code developed during our study on the impact of birth on brain folding.
+This repository contains the code developed during our study on the impact of birth on brain folding:
+
+Angeline Mihailov et al., “Burst of Gyrification in the Human Brain after Birth,” Communications Biology 8, no. 1 (2025): 1–13, https://doi.org/10.1038/s42003-025-08155-z.
 
 # Code Descriptions
 
